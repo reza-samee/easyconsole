@@ -1,0 +1,20 @@
+// in the name of ALLAH
+
+organization := "com.teanlab"
+
+name := "consolenet-test"
+
+version := "0.1.0"
+
+scalaVersion := "2.11.7"
+
+scalacOptions ++= Seq(
+  "-deprecation",
+  "-feature",
+  "-language:postfixOps"
+)
+
+libraryDependencies ++= Seq(
+  "com.teanlab" %% "akka-easyconsole" % "0.1.0",
+  "com.teanlab" %% "cli" % "0.1.0"
+)
